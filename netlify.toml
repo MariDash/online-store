@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/product*"
+  to = "/index.html"
+  status = 200
+  force = true
+[[redirects]]
   from = "/cart"
   to = "/index.html"
   status = 200
