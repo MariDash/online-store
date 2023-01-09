@@ -1,0 +1,38 @@
+  .not-found {
+    font-family: "montserrat",sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+  }
+  
+  .not-found h1{
+    font-size: 110px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url('./404.jpg') center no-repeat;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .not-found a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    border: 2px solid gray;
+    margin-top: 20px;
+  }
+
+  .not-found a:hover {
+    transform: scale(1.1);
+  }
+  
