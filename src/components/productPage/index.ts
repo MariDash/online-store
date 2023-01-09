@@ -10,7 +10,7 @@ class ProductPage {
             const { origin } = new URL(window.location.href);
             console.log(origin);
 
-            const newUrl = new URL(origin + `/product${id}`);
+            const newUrl = new URL(origin + `/product/${id}`);
             console.log(newUrl);
             window.history.pushState({}, '', newUrl);
         }
